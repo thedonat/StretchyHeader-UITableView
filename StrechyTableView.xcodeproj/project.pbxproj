@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		002610B42473F287001A73FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002610B32473F287001A73FC /* AppDelegate.swift */; };
 		002610B62473F287001A73FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002610B52473F287001A73FC /* SceneDelegate.swift */; };
-		002610B82473F287001A73FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002610B72473F287001A73FC /* ViewController.swift */; };
 		002610BB2473F287001A73FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 002610B92473F287001A73FC /* Main.storyboard */; };
 		002610BD2473F28D001A73FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 002610BC2473F28D001A73FC /* Assets.xcassets */; };
 		002610C02473F28D001A73FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 002610BE2473F28D001A73FC /* LaunchScreen.storyboard */; };
+		002610C82473F3BD001A73FC /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002610C72473F3BD001A73FC /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		002610B02473F287001A73FC /* StrechyTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StrechyTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		002610B32473F287001A73FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		002610B52473F287001A73FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		002610B72473F287001A73FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		002610BA2473F287001A73FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		002610BC2473F28D001A73FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		002610BF2473F28D001A73FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		002610C12473F28D001A73FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		002610C72473F3BD001A73FC /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +41,6 @@
 			isa = PBXGroup;
 			children = (
 				002610B22473F287001A73FC /* StrechyTableView */,
-				002610B12473F287001A73FC /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,6 +50,7 @@
 				002610B02473F287001A73FC /* StrechyTableView.app */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		002610B22473F287001A73FC /* StrechyTableView */ = {
@@ -58,11 +58,12 @@
 			children = (
 				002610B32473F287001A73FC /* AppDelegate.swift */,
 				002610B52473F287001A73FC /* SceneDelegate.swift */,
-				002610B72473F287001A73FC /* ViewController.swift */,
+				002610C72473F3BD001A73FC /* TableViewController.swift */,
 				002610B92473F287001A73FC /* Main.storyboard */,
 				002610BC2473F28D001A73FC /* Assets.xcassets */,
 				002610BE2473F28D001A73FC /* LaunchScreen.storyboard */,
 				002610C12473F28D001A73FC /* Info.plist */,
+				002610B12473F287001A73FC /* Products */,
 			);
 			path = StrechyTableView;
 			sourceTree = "<group>";
@@ -138,8 +139,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				002610B82473F287001A73FC /* ViewController.swift in Sources */,
 				002610B42473F287001A73FC /* AppDelegate.swift in Sources */,
+				002610C82473F3BD001A73FC /* TableViewController.swift in Sources */,
 				002610B62473F287001A73FC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
